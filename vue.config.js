@@ -23,5 +23,8 @@ module.exports = {
                 '@views': resolve('src/views')
             }
         }
-    })
+    }),
+    chainWebpack: (config) => {
+        
+    }
 };

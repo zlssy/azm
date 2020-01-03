@@ -1,11 +1,18 @@
-
-.loginPanel{
-    border: solid 1px gray;
-    width: 20rem;
-    margin: 0 auto;
-    border-radius: 1rem;
-    padding: 1rem;
+.loginPanel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background: url(~@assets/img/bg.jpg) no-repeat center center;
+  background-size: cover;
 }
-.login-form{
-    background-color: #fff;
+.login-form {
+  background-color: #fff;
+}
+.el-row{
+  width: 20%;
+  min-width: 20rem;
+  margin: 0 auto;
+  margin-top: 20rem;
 }
